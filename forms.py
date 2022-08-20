@@ -132,6 +132,7 @@ class ArtistForm(Form):
     name = StringField(
         'name', validators=[DataRequired()]
     )
+
     city = StringField(
         'city', validators=[DataRequired()]
     )
